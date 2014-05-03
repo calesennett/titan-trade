@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def index
-  end
+	def index
+		@title = "Hello, world!"
+	end
 end

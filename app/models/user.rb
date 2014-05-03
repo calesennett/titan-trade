@@ -5,5 +5,6 @@ class User < ActiveRecord::Base
         :recoverable, :rememberable, :trackable, :validatable
   has_many :books
   has_many :trades
-  acts_as_votable 
+  acts_as_votable
+
 end
