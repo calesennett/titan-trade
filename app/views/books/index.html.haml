@@ -1,0 +1,7 @@
+- @books.each do |book|
+    %li= book.title
+    = link_to 'x', book_path(book), method: :delete
+
+%br
+
+= link_to 'Add new book', new_book_path
